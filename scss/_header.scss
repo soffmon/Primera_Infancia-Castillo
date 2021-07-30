@@ -1,0 +1,42 @@
+body {
+    background: #efe9ce;
+}
+
+header {
+    background: #efe9ce;
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+        font-family: "Fredoka One", cursive;
+        color: #043539;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+/*Menú*/
+
+.menu {
+    background: #508ec1;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.menu_text {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #efe9ce;
+    font-size: 16px;
+}
+
+.logo {
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+    justify-items: center;
+
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
+}

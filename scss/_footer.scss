@@ -1,0 +1,33 @@
+footer {
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+
+    h6 {
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        color: #043539;
+        font-size: 14px;
+    }
+}
+
+.float {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    z-index: 6;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    background-color: #508ec1;
+    color: #efe9ce;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+
+    &:hover {
+        background-color: #086680;
+    }
+}
